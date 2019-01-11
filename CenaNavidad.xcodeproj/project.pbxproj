@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03BECD2857B2060F7C3BB3BB /* Pods_CenaNavidad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13293C610460D50062F6F038 /* Pods_CenaNavidad.framework */; };
 		7366676621E659BD00A179A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366676521E659BD00A179A0 /* AppDelegate.swift */; };
-		7366676821E659BD00A179A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366676721E659BD00A179A0 /* ViewController.swift */; };
-		7366676B21E659BD00A179A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7366676921E659BD00A179A0 /* Main.storyboard */; };
 		7366676E21E659BD00A179A0 /* CenaNavidad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7366676C21E659BD00A179A0 /* CenaNavidad.xcdatamodeld */; };
 		7366677021E659C000A179A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7366676F21E659C000A179A0 /* Assets.xcassets */; };
 		7366677321E659C000A179A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7366677121E659C000A179A0 /* LaunchScreen.storyboard */; };
+		7366678221E65A5E00A179A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366678021E65A5E00A179A0 /* MainViewController.swift */; };
+		7366678321E65A5E00A179A0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7366678121E65A5E00A179A0 /* MainViewController.xib */; };
+		7366678521E65CA000A179A0 /* MDinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366678421E65CA000A179A0 /* MDinner.swift */; };
+		7366678721E65CEC00A179A0 /* MGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366678621E65CEC00A179A0 /* MGuest.swift */; };
+		7366678921E65DC400A179A0 /* MDish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366678821E65DC400A179A0 /* MDish.swift */; };
+		7366679121E663EA00A179A0 /* DinnerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366678F21E663EA00A179A0 /* DinnerCell.swift */; };
+		7366679221E663EA00A179A0 /* DinnerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7366679021E663EA00A179A0 /* DinnerCell.xib */; };
+		7366679521E666AF00A179A0 /* EDinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366679421E666AF00A179A0 /* EDinner.swift */; };
+		7366679721E6686B00A179A0 /* EGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7366679621E6686B00A179A0 /* EGuest.swift */; };
+		738727CE21E7982C00A1BE2D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727CD21E7982C00A1BE2D /* Repository.swift */; };
+		738727D021E7987700A1BE2D /* LocalDinnerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727CF21E7987700A1BE2D /* LocalDinnerRepository.swift */; };
+		738727D421E79D3600A1BE2D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727D221E79D3600A1BE2D /* AddViewController.swift */; };
+		738727D521E79D3600A1BE2D /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738727D321E79D3600A1BE2D /* AddViewController.xib */; };
+		738727D921E7AE3F00A1BE2D /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727D721E7AE3F00A1BE2D /* ChoiceViewController.swift */; };
+		738727DA21E7AE3F00A1BE2D /* ChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738727D821E7AE3F00A1BE2D /* ChoiceViewController.xib */; };
+		738727DE21E7B40600A1BE2D /* GuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727DC21E7B40600A1BE2D /* GuestsViewController.swift */; };
+		738727DF21E7B40600A1BE2D /* GuestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738727DD21E7B40600A1BE2D /* GuestsViewController.xib */; };
+		738727E321E7B58700A1BE2D /* GuestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727E121E7B58700A1BE2D /* GuestsCell.swift */; };
+		738727E421E7B58700A1BE2D /* GuestsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738727E221E7B58700A1BE2D /* GuestsCell.xib */; };
+		738727E621E7B7AF00A1BE2D /* LocalGuestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727E521E7B7AF00A1BE2D /* LocalGuestRepository.swift */; };
+		738727E921E7BD1F00A1BE2D /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738727E721E7BD1F00A1BE2D /* AddGuestViewController.swift */; };
+		738727EA21E7BD1F00A1BE2D /* AddGuestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 738727E821E7BD1F00A1BE2D /* AddGuestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13293C610460D50062F6F038 /* Pods_CenaNavidad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CenaNavidad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366676221E659BD00A179A0 /* CenaNavidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenaNavidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7366676521E659BD00A179A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7366676721E659BD00A179A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7366676A21E659BD00A179A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7366676D21E659BD00A179A0 /* CenaNavidad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CenaNavidad.xcdatamodel; sourceTree = "<group>"; };
 		7366676F21E659C000A179A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7366677221E659C000A179A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7366677421E659C000A179A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7366678021E65A5E00A179A0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7366678121E65A5E00A179A0 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		7366678421E65CA000A179A0 /* MDinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDinner.swift; sourceTree = "<group>"; };
+		7366678621E65CEC00A179A0 /* MGuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGuest.swift; sourceTree = "<group>"; };
+		7366678821E65DC400A179A0 /* MDish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDish.swift; sourceTree = "<group>"; };
+		7366678F21E663EA00A179A0 /* DinnerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerCell.swift; sourceTree = "<group>"; };
+		7366679021E663EA00A179A0 /* DinnerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DinnerCell.xib; sourceTree = "<group>"; };
+		7366679421E666AF00A179A0 /* EDinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDinner.swift; sourceTree = "<group>"; };
+		7366679621E6686B00A179A0 /* EGuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGuest.swift; sourceTree = "<group>"; };
+		738727CD21E7982C00A1BE2D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		738727CF21E7987700A1BE2D /* LocalDinnerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDinnerRepository.swift; sourceTree = "<group>"; };
+		738727D221E79D3600A1BE2D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		738727D321E79D3600A1BE2D /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		738727D721E7AE3F00A1BE2D /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		738727D821E7AE3F00A1BE2D /* ChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoiceViewController.xib; sourceTree = "<group>"; };
+		738727DC21E7B40600A1BE2D /* GuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsViewController.swift; sourceTree = "<group>"; };
+		738727DD21E7B40600A1BE2D /* GuestsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestsViewController.xib; sourceTree = "<group>"; };
+		738727E121E7B58700A1BE2D /* GuestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsCell.swift; sourceTree = "<group>"; };
+		738727E221E7B58700A1BE2D /* GuestsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestsCell.xib; sourceTree = "<group>"; };
+		738727E521E7B7AF00A1BE2D /* LocalGuestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGuestRepository.swift; sourceTree = "<group>"; };
+		738727E721E7BD1F00A1BE2D /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
+		738727E821E7BD1F00A1BE2D /* AddGuestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddGuestViewController.xib; sourceTree = "<group>"; };
+		8A67ED27F0E70FBAD145AADC /* Pods-CenaNavidad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenaNavidad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad.debug.xcconfig"; sourceTree = "<group>"; };
+		DBAF7AE4BE5D4EA20A46B011 /* Pods-CenaNavidad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenaNavidad.release.xcconfig"; path = "Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BECD2857B2060F7C3BB3BB /* Pods_CenaNavidad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603258153FBB5203C7E48BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13293C610460D50062F6F038 /* Pods_CenaNavidad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7366675921E659BD00A179A0 = {
 			isa = PBXGroup;
 			children = (
 				7366676421E659BD00A179A0 /* CenaNavidad */,
 				7366676321E659BD00A179A0 /* Products */,
+				BC74125E39566DE98C23F3BE /* Pods */,
+				603258153FBB5203C7E48BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +111,140 @@
 		7366676421E659BD00A179A0 /* CenaNavidad */ = {
 			isa = PBXGroup;
 			children = (
+				738727CC21E7981500A1BE2D /* Repository */,
+				7366679321E664AD00A179A0 /* Entities */,
+				7366677D21E659F900A179A0 /* Models */,
+				7366677C21E659F400A179A0 /* RP */,
+				7366677B21E659EE00A179A0 /* Cells */,
+				7366677A21E659E600A179A0 /* ViewControllers */,
 				7366676521E659BD00A179A0 /* AppDelegate.swift */,
-				7366676721E659BD00A179A0 /* ViewController.swift */,
-				7366676921E659BD00A179A0 /* Main.storyboard */,
 				7366676F21E659C000A179A0 /* Assets.xcassets */,
 				7366677121E659C000A179A0 /* LaunchScreen.storyboard */,
 				7366677421E659C000A179A0 /* Info.plist */,
 				7366676C21E659BD00A179A0 /* CenaNavidad.xcdatamodeld */,
 			);
 			path = CenaNavidad;
+			sourceTree = "<group>";
+		};
+		7366677A21E659E600A179A0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				738727DB21E7B3EE00A1BE2D /* Guests */,
+				738727D621E7AE2A00A1BE2D /* Choice */,
+				738727D121E79D0D00A1BE2D /* AddViewController */,
+				7366677F21E65A4400A179A0 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7366677B21E659EE00A179A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				738727E021E7B53500A1BE2D /* Guests */,
+				7366678A21E65F3700A179A0 /* Dinner */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		7366677C21E659F400A179A0 /* RP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RP;
+			sourceTree = "<group>";
+		};
+		7366677D21E659F900A179A0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7366678421E65CA000A179A0 /* MDinner.swift */,
+				7366678621E65CEC00A179A0 /* MGuest.swift */,
+				7366678821E65DC400A179A0 /* MDish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7366677F21E65A4400A179A0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7366678021E65A5E00A179A0 /* MainViewController.swift */,
+				7366678121E65A5E00A179A0 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7366678A21E65F3700A179A0 /* Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				7366678F21E663EA00A179A0 /* DinnerCell.swift */,
+				7366679021E663EA00A179A0 /* DinnerCell.xib */,
+			);
+			name = Dinner;
+			sourceTree = "<group>";
+		};
+		7366679321E664AD00A179A0 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7366679421E666AF00A179A0 /* EDinner.swift */,
+				7366679621E6686B00A179A0 /* EGuest.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		738727CC21E7981500A1BE2D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				738727CD21E7982C00A1BE2D /* Repository.swift */,
+				738727E521E7B7AF00A1BE2D /* LocalGuestRepository.swift */,
+				738727CF21E7987700A1BE2D /* LocalDinnerRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		738727D121E79D0D00A1BE2D /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				738727D221E79D3600A1BE2D /* AddViewController.swift */,
+				738727D321E79D3600A1BE2D /* AddViewController.xib */,
+				738727E721E7BD1F00A1BE2D /* AddGuestViewController.swift */,
+				738727E821E7BD1F00A1BE2D /* AddGuestViewController.xib */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		738727D621E7AE2A00A1BE2D /* Choice */ = {
+			isa = PBXGroup;
+			children = (
+				738727D721E7AE3F00A1BE2D /* ChoiceViewController.swift */,
+				738727D821E7AE3F00A1BE2D /* ChoiceViewController.xib */,
+			);
+			path = Choice;
+			sourceTree = "<group>";
+		};
+		738727DB21E7B3EE00A1BE2D /* Guests */ = {
+			isa = PBXGroup;
+			children = (
+				738727DD21E7B40600A1BE2D /* GuestsViewController.xib */,
+				738727DC21E7B40600A1BE2D /* GuestsViewController.swift */,
+			);
+			path = Guests;
+			sourceTree = "<group>";
+		};
+		738727E021E7B53500A1BE2D /* Guests */ = {
+			isa = PBXGroup;
+			children = (
+				738727E121E7B58700A1BE2D /* GuestsCell.swift */,
+				738727E221E7B58700A1BE2D /* GuestsCell.xib */,
+			);
+			name = Guests;
+			sourceTree = "<group>";
+		};
+		BC74125E39566DE98C23F3BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A67ED27F0E70FBAD145AADC /* Pods-CenaNavidad.debug.xcconfig */,
+				DBAF7AE4BE5D4EA20A46B011 /* Pods-CenaNavidad.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7366677721E659C000A179A0 /* Build configuration list for PBXNativeTarget "CenaNavidad" */;
 			buildPhases = (
+				8AFD5BFDCAAB44CF667D20CB /* [CP] Check Pods Manifest.lock */,
 				7366675E21E659BD00A179A0 /* Sources */,
 				7366675F21E659BD00A179A0 /* Frameworks */,
 				7366676021E659BD00A179A0 /* Resources */,
+				147CEC89F8E8E9F58A73CCBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +308,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				7366677321E659C000A179A0 /* LaunchScreen.storyboard in Resources */,
+				738727EA21E7BD1F00A1BE2D /* AddGuestViewController.xib in Resources */,
+				7366678321E65A5E00A179A0 /* MainViewController.xib in Resources */,
+				738727E421E7B58700A1BE2D /* GuestsCell.xib in Resources */,
+				738727D521E79D3600A1BE2D /* AddViewController.xib in Resources */,
+				738727DF21E7B40600A1BE2D /* GuestsViewController.xib in Resources */,
 				7366677021E659C000A179A0 /* Assets.xcassets in Resources */,
-				7366676B21E659BD00A179A0 /* Main.storyboard in Resources */,
+				7366679221E663EA00A179A0 /* DinnerCell.xib in Resources */,
+				738727DA21E7AE3F00A1BE2D /* ChoiceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		147CEC89F8E8E9F58A73CCBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFD5BFDCAAB44CF667D20CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CenaNavidad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7366675E21E659BD00A179A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7366676821E659BD00A179A0 /* ViewController.swift in Sources */,
+				7366678521E65CA000A179A0 /* MDinner.swift in Sources */,
+				7366678221E65A5E00A179A0 /* MainViewController.swift in Sources */,
+				738727D421E79D3600A1BE2D /* AddViewController.swift in Sources */,
 				7366676E21E659BD00A179A0 /* CenaNavidad.xcdatamodeld in Sources */,
+				7366679121E663EA00A179A0 /* DinnerCell.swift in Sources */,
+				7366678921E65DC400A179A0 /* MDish.swift in Sources */,
+				7366679521E666AF00A179A0 /* EDinner.swift in Sources */,
+				738727D921E7AE3F00A1BE2D /* ChoiceViewController.swift in Sources */,
+				738727E621E7B7AF00A1BE2D /* LocalGuestRepository.swift in Sources */,
+				7366678721E65CEC00A179A0 /* MGuest.swift in Sources */,
+				738727DE21E7B40600A1BE2D /* GuestsViewController.swift in Sources */,
+				738727E921E7BD1F00A1BE2D /* AddGuestViewController.swift in Sources */,
+				738727CE21E7982C00A1BE2D /* Repository.swift in Sources */,
+				738727D021E7987700A1BE2D /* LocalDinnerRepository.swift in Sources */,
+				738727E321E7B58700A1BE2D /* GuestsCell.swift in Sources */,
 				7366676621E659BD00A179A0 /* AppDelegate.swift in Sources */,
+				7366679721E6686B00A179A0 /* EGuest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7366676921E659BD00A179A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7366676A21E659BD00A179A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7366677121E659C000A179A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +517,7 @@
 		};
 		7366677821E659C000A179A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A67ED27F0E70FBAD145AADC /* Pods-CenaNavidad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +535,7 @@
 		};
 		7366677921E659C000A179A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBAF7AE4BE5D4EA20A46B011 /* Pods-CenaNavidad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
